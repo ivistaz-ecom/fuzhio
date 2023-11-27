@@ -3,6 +3,8 @@ import axios from 'axios';
 import { Col, Row, Container } from 'react-bootstrap';
 import { RotatingLines } from 'react-loader-spinner';
 
+import '../../styles/Home.module.css'
+
 const ContactForm = () => {
     const [formData, setFormData] = useState({
         fullName: '',
@@ -84,15 +86,18 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="form-bg">
+        <div className="form-bg py-md-5 py-3">
+            <h3 className='text-white pb-4'>
+                Send us your message.
+            </h3>
             {formVisible ? (
                 <form onSubmit={handleSubmit} encType='multipart/form-data'>
                     <Row>
                         <Col>
                             <div className="mb-3">
-                                <label htmlFor="fullName" className="form-label">
+                                {/* <label htmlFor="fullName" className="form-label">
                                     Full Name <span className="required">*</span>
-                                </label>
+                                </label> */}
                                 <input
                                     type="text"
                                     name="fullName"
@@ -106,9 +111,9 @@ const ContactForm = () => {
                         </Col>
                         <Col>
                             <div className="mb-3">
-                                <label htmlFor="lastName" className="form-label">
+                                {/* <label htmlFor="lastName" className="form-label">
                                     Last Name <span className="required">*</span>
-                                </label>
+                                </label> */}
                                 <input
                                     type="text"
                                     name="lastName"
@@ -124,9 +129,9 @@ const ContactForm = () => {
                     <Row>
                         <Col>
                             <div className="mb-3">
-                                <label htmlFor="businessEmail" className="form-label">
+                                {/* <label htmlFor="businessEmail" className="form-label">
                                     Email <span className="required">*</span>
-                                </label>
+                                </label> */}
                                 <input
                                     type="text"
                                     name="businessEmail"
@@ -142,15 +147,16 @@ const ContactForm = () => {
                     <Row>
                         <Col sm={12}>
                             <div className="mb-3">
-                                <label htmlFor="message" className="form-label">
+                                {/* <label htmlFor="message" className="form-label">
                                     Message <span className="required">*</span>
-                                </label>
+                                </label> */}
                                 <textarea
                                     type="text"
                                     id="message"
                                     className="form-control"
                                     value={formData.message}
                                     onChange={handleChange}
+                                    placeholder='Message'
                                     name="message"
                                     rows="4"
                                     cols="50"
