@@ -2,7 +2,7 @@ import React from 'react'
 
 import DynamiLoopTemplate from './DyamicLoopTemplate';
 
-import Header from '../common/Header';
+import Header from '../common/Header2';
 import Footer from '../common/Footer';
 import { NextSeo } from 'next-seo';
 
