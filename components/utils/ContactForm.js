@@ -79,7 +79,7 @@ const ContactForm = () => {
             }
         } catch (err) {
             setError('An error occurred. Please try again.');
-            console.error('Error submitting form:', err);
+            // console.error('Error submitting form:', err);
         }
 
         setIsSubmitting(false);
