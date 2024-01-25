@@ -4,7 +4,7 @@ import { Button, Col, Container, Image, Row } from 'react-bootstrap'
 import ContactForm from '../../../components/utils/ContactForm'
 
 const Footer = () => {
-
+	const [date, setDate] = useState(new Date());
     return (
         <>
             <Container fluid style={{ background: "rgba(110,24,12,.78)" }} className='p-0'>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </Container>
                 <hr className='border border-1' />
                 <Container className='text-center text-white p-2' >
-                    <p style={{ fontSize: '10pt', color: 'rgba(255,255,255,.5)' }}>Copyright © 2023 Fuzhio Health and Business Services | Powered by Fuzhio Health and Business Services</p>
+                    <p style={{ fontSize: '10pt', color: 'rgba(255,255,255,.5)' }}>&copy; {date.getFullYear()} Fuzhio Health and Business Services | Powered by Fuzhio Health and Business Services</p>
                 </Container>
             </Container>
         </>
