@@ -15,6 +15,8 @@ const AboutBanner = () => {
                     </Row>
                 </Container>
             </Container>
+
+            
         </>
     )
 }
