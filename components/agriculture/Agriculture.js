@@ -57,7 +57,7 @@ const Agriculture = () => {
                 </Row>
             </Container>
 
-            <Container fluid className='p-0'>
+            <Container fluid className='p-0 px-3'>
                 <Row className='p-0'>
                     <Col md={4} className='p-0'>
                         <Image src='/assets/agri/green_chilli.jpg' width="100%" />

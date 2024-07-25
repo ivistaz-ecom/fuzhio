@@ -1,14 +1,14 @@
-import React from 'react'
+// import React from 'react'
 
-import NoblePlasticPage from '../components/nobleplastic'
+// import NoblePlasticPage from '../components/nobleplastic'
 
 
-function nobleplastic() {
-    return (
-        <div>
-            <NoblePlasticPage />
-        </div>
-    )
-}
+// function nobleplastic() {
+//     return (
+//         <div>
+//             <NoblePlasticPage />
+//         </div>
+//     )
+// }
 
-export default nobleplastic
+// export default nobleplastic

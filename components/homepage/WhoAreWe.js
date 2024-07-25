@@ -81,28 +81,7 @@ const WhoAreWe = () => {
                     </Col>
                 </Row>
                 {/* Row 2 */}
-                <Row className='hide-mobile-view'>
-                    <Col className='d-flex flex-column justify-content-between our-dirc p-md-5 laro-regular p-5 ' >
-                        <p className='text-white p-0 lh-lg '>The products in the value chains that we enhance ensure positive social and environmental impact</p>
-                        <div className='border border-3 w-25 d-md-block d-none '></div>
-                    </Col>
-                    <Col className='d-flex flex-column justify-content-between our-dirc our-dirc-1 p-md-5 laro-regular p-5 ' >
-                        <p className='text-white p-0 lh-lg '>We make the markets work for the poor. Our workforce is comprised of smallholder farmers, women, and members of various marginalised communities</p>
-                        <div className='border border-3 w-25 d-md-block d-none '></div>
-                    </Col>
-                    <Col className='d-flex flex-column justify-content-between our-dirc our-dirc-2 p-md-5 laro-regular p-5 ' >
-                        <p className='text-white p-0 lh-lg '>Returns from our initiatives flow directly to our community stakeholders, thus making our system equitable</p>
-                        <div className='border border-3 w-25 d-md-block d-none '></div>
-                    </Col>
-                    <Col className='d-flex flex-column justify-content-between our-dirc our-dirc-3 p-md-5 laro-regular p-5 ' >
-                        <p className='text-white p-0 lh-lg '>We not only improve market linkages, but also integrate our stakeholders into unique business opportunities</p>
-                        <div className='border border-3 w-25 d-md-block d-none '></div>
-                    </Col>
-                    <Col className='d-flex flex-column justify-content-between our-dirc our-dirc-4 p-md-5 laro-regular p-5 ' >
-                        <p className='text-white p-0 lh-lg'>We enable traceability and transparency, and promise quality assurance of all our products</p>
-                        <div className='border border-3 w-25 d-md-block d-none '></div>
-                    </Col>
-                </Row>
+                
 
             </Container >
 
@@ -133,8 +112,8 @@ const WhoAreWe = () => {
                                 <NumberCounter start={0} end={5} title="States we work in" />
                             </Col>
                         </Row>
-                        <Row className=' text-center d-flex flex-column text-center flex-md-row'>
-                            <Col className=''>
+                        <Row className=' text-center d-flex flex-column text-center flex-md-row '>
+                            <Col className='mt-4'>
                                 <NumberCounter start={0} end={13500} symbol="+" title="Trees planted" />
                             </Col>
                             <Col className=''>
@@ -168,7 +147,7 @@ const WhoAreWe = () => {
             <Container fluid className='parters-bg'>
                 <Container>
                     <Col className='text-center'>
-                        <h1 className='d-md-inline-block d-none text-center pb-4 px-5' style={{ color: '#923022', borderBottom: '2px solid #923022', letterSpacing: '5px' }}>Partners</h1>
+                        <h1 className='d-inline-block d-none text-center pb-4 px-5' style={{ color: '#923022', borderBottom: '2px solid #923022', letterSpacing: '5px' }}>Partners</h1>
                     </Col>
                     <PartnersCarousel />
                 </Container>
